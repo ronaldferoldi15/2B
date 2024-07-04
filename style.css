@@ -1,28 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 :root{
-    --branco-principal: #ffffff;
-    --cinza-secundario: #c0c0c0;
-    --botao-azul: #167bf7;
-    --cor-de-fundo: #00030c;
+    --cor-de-fundo: #EBECEE;
+    --branco: #ffffff;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
 }
 body{
     background-color: var(--cor-de-fundo);
-    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
-.principal{
-    background-image: url("img/background.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+h1 {
+    background-color: white;
 }
-.container{
-    height: 100vh;
-}
-.container__botao{
-    border-radius: 5px;
-    padding: 1em;
-    color: var(--branco-principal);
-    display: block;
+.container_botao{
+    display: none;
 }
